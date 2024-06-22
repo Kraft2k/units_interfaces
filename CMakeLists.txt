@@ -11,6 +11,8 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "action/UpFrontServo.action"
+  "action/ReachMarker.action"
+  "action/DetectMarker.action"
   "srv/SetUnitMode.srv"
   "srv/ResetOdometry.srv"
   "srv/GetOdometry.srv"

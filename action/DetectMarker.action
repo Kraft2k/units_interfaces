@@ -1,0 +1,10 @@
+# Goal
+int64 id_marker
+int64 target_number
+float64 period
+---
+# Result
+int64 reached_number
+---
+# Feedback
+bool success
